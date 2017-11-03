@@ -1,12 +1,21 @@
-## Welcome to GitHub Pages
+## Using WINGS for designing workflows
 
-You can use the [editor on GitHub](https://github.com/arunima2/WINGS/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+Below are steps and resources for getting started with the WINGS image for designing and executing workflows.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Step 1
+Download and install the WINGS template image by using
+```
+docker pull wingstemplate/wings_template
+```
+This contains a WINGS template image built on top of kcapd/wings-genomics as detailed in the [detailed WINGS tutorial here](https://dgarijo.github.io/Materials/Tutorials/wings-docker/)
 
-### Markdown
+### Step 2
+Download WINGS API and relevant script
+```
+docker pull wingstemplate/wings_template
+```
+This contains a WINGS template image built on top of kcapd/wings-genomics as detailed in the [detailed WINGS tutorial here](https://dgarijo.github.io/Materials/Tutorials/wings-docker/)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
 Syntax highlighted code block
