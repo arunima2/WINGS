@@ -14,9 +14,15 @@ Download WINGS API and relevant scripts from this repository - ***wings-api_and_
 Unzip and place in an empty folder.
 
 ### Step 3
-As mentioned in tutorial highlighted in Step 1, you will need to run the docker image by downloading the start-wings.sh file and changing a few specifics like the image name etc. Once successfully started you can navigate to http://localhost:8080/wings-portal in order to start working with WINGS and the designing the workflow.
+As mentioned in tutorial highlighted in Step 1, you will need to run the docker image by downloading the start-wings.sh file and changing a few specifics like the image name etc. 
+
+Once successfully started you can navigate to http://localhost:8080/wings-portal in order to start working with WINGS and the designing the workflow.
+
+
 The credentials for the WINGS image are
+
 Username:admin
+
 Password:4dm1n!23
 
 ### Step 4
@@ -36,7 +42,7 @@ Open the automating `executing_workflow_on_wings.sh` script and change the requi
 - Rename the output file
 
 ***Note*** 
-1. Might need to install module `requests` using `sudo pip install requests` on machine
+1. Might need to install module `requests` using `sudo pip install requests` on local machine
 2. Varying types of input JSONs are located under `/resources`. On the left is the variable name and on the right is the binding. If it has a `"file:" ...` in the beginning, then it is an input file, if not, then it is a parameter. A collection input is set as an array.
 3. Output files are named as `<variable_name+alphanumeric>`. The included image denotes the output file name as `output_file` and the `executing_workflow_on_wings.sh` script retains only files bound to this variable. 
 4. Clearing the cache is a good troubleshooting method if image is working intermittently.
