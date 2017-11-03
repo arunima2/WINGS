@@ -3,7 +3,7 @@
 Below are steps and resources for getting started with the WINGS image for designing and executing workflows.
 
 ### Step 1
-Download and install the WINGS template image by using
+Download and install the WINGS template image by using this document
 ```
 docker pull wingstemplate/wings_template
 ```
