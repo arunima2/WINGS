@@ -7,7 +7,7 @@ Download and install the WINGS template image by using this document
 ```
 docker pull wingstemplate/wings_template
 ```
-This contains a WINGS template image built on top of kcapd/wings-genomics as detailed in the [detailed WINGS tutorial here](https://dgarijo.github.io/Materials/Tutorials/wings-docker/). Will need [docker](https://www.docker.com/) installed.
+This contains a WINGS template image built on top of kcapd/wings-genomics as described in the [detailed WINGS tutorial here](https://dgarijo.github.io/Materials/Tutorials/wings-docker/). Will need [docker](https://www.docker.com/) installed.
 
 ### Step 2
 Download WINGS API and relevant scripts from this repository - ***wings-api_and_scripts***
