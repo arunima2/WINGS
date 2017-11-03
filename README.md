@@ -26,7 +26,7 @@ Username:admin
 Password:4dm1n!23
 
 ### Step 4
-The test workflow contains a component that takes an input file from Sub Challenge 1 and produced and output file. You can download the component (under ***Manage Component***) zipped file and change ONLY the ***run*** file (as shown below) and the analysis script itself and reupload the zip to change component functionality. Data will similarly be uploaded under ***Manage Data***. Currently a data type `data_m` is created in the image, under which any new files can be uploaded.
+The test workflow contains a component that takes an input file from Sub Challenge 1 and produces an output file. You can download the component (under ***Manage Component***) zipped file and change ONLY the ***run*** file (as shown below) and the analysis script itself and reupload the zip to change component functionality. Data will similarly be uploaded under ***Manage Data***. Currently a data type `data_m` is created in the image, under which any new files can be uploaded.
 ```
 . $BASEDIR/io.sh <num of inputs> <num of parameters> <num of outputs> "$@"
 Rscript --no-save --no-restore $BASEDIR/impute.R $INPUTS1 $OUTPUTS1 # Command to run analysis script
